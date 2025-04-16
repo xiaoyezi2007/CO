@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {/media/shared/shared folder/P7/P7_mips/mips.v} -lang verilog -prj P7_mips -o mips.spl -module mips -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 mips.spl {/media/shared/shared folder/P7/P7_mips/mips.sym} 
+xst -intstyle ise -ifn "/media/shared/shared folder/P7/P7_mips/mips.xst" -ofn "/media/shared/shared folder/P7/P7_mips/mips.syr" 
+xst -intstyle ise -ifn "/media/shared/shared folder/P7/P7_mips/mips.xst" -ofn "/media/shared/shared folder/P7/P7_mips/mips.syr" 

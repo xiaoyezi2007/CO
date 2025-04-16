@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="mips">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2024-11-28T3:54:18</timestamp>
+    <attr value="mips" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-736" name="clk" />
+    <pin polarity="Input" x="0" y="-560" name="reset" />
+    <pin polarity="Input" x="0" y="-384" name="interrupt" />
+    <pin polarity="Input" x="0" y="-208" name="i_inst_rdata(31:0)" />
+    <pin polarity="Input" x="0" y="-32" name="m_data_rdata(31:0)" />
+    <pin polarity="Output" x="576" y="-736" name="w_grf_we" />
+    <pin polarity="Output" x="576" y="-672" name="macroscopic_pc(31:0)" />
+    <pin polarity="Output" x="576" y="-608" name="i_inst_addr(31:0)" />
+    <pin polarity="Output" x="576" y="-544" name="m_data_addr(31:0)" />
+    <pin polarity="Output" x="576" y="-480" name="m_data_wdata(31:0)" />
+    <pin polarity="Output" x="576" y="-416" name="m_data_byteen(3:0)" />
+    <pin polarity="Output" x="576" y="-352" name="m_int_addr(31:0)" />
+    <pin polarity="Output" x="576" y="-288" name="m_int_byteen(3:0)" />
+    <pin polarity="Output" x="576" y="-224" name="m_inst_addr(31:0)" />
+    <pin polarity="Output" x="576" y="-160" name="w_grf_addr(4:0)" />
+    <pin polarity="Output" x="576" y="-96" name="w_grf_wdata(31:0)" />
+    <pin polarity="Output" x="576" y="-32" name="w_inst_addr(31:0)" />
+    <graph>
+        <rect width="448" x="64" y="-768" height="768" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="288" y="-776" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin clk" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-560" type="pin reset" />
+        <line x2="0" y1="-560" y2="-560" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-384" type="pin interrupt" />
+        <line x2="0" y1="-384" y2="-384" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-208" type="pin i_inst_rdata(31:0)" />
+        <rect width="64" x="0" y="-220" height="24" />
+        <line x2="0" y1="-208" y2="-208" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin m_data_rdata(31:0)" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-736" type="pin w_grf_we" />
+        <line x2="576" y1="-736" y2="-736" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-672" type="pin macroscopic_pc(31:0)" />
+        <rect width="64" x="512" y="-684" height="24" />
+        <line x2="576" y1="-672" y2="-672" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-608" type="pin i_inst_addr(31:0)" />
+        <rect width="64" x="512" y="-620" height="24" />
+        <line x2="576" y1="-608" y2="-608" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-544" type="pin m_data_addr(31:0)" />
+        <rect width="64" x="512" y="-556" height="24" />
+        <line x2="576" y1="-544" y2="-544" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-480" type="pin m_data_wdata(31:0)" />
+        <rect width="64" x="512" y="-492" height="24" />
+        <line x2="576" y1="-480" y2="-480" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-416" type="pin m_data_byteen(3:0)" />
+        <rect width="64" x="512" y="-428" height="24" />
+        <line x2="576" y1="-416" y2="-416" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-352" type="pin m_int_addr(31:0)" />
+        <rect width="64" x="512" y="-364" height="24" />
+        <line x2="576" y1="-352" y2="-352" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-288" type="pin m_int_byteen(3:0)" />
+        <rect width="64" x="512" y="-300" height="24" />
+        <line x2="576" y1="-288" y2="-288" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-224" type="pin m_inst_addr(31:0)" />
+        <rect width="64" x="512" y="-236" height="24" />
+        <line x2="576" y1="-224" y2="-224" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-160" type="pin w_grf_addr(4:0)" />
+        <rect width="64" x="512" y="-172" height="24" />
+        <line x2="576" y1="-160" y2="-160" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-96" type="pin w_grf_wdata(31:0)" />
+        <rect width="64" x="512" y="-108" height="24" />
+        <line x2="576" y1="-96" y2="-96" x1="512" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-32" type="pin w_inst_addr(31:0)" />
+        <rect width="64" x="512" y="-44" height="24" />
+        <line x2="576" y1="-32" y2="-32" x1="512" />
+    </graph>
+</symbol>

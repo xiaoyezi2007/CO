@@ -1,0 +1,23 @@
+[Inputs]
+clk
+reset
+interrupt
+=i_inst_rdata[31:0]=
+=m_data_rdata[31:0]=
+[Outputs]
+w_grf_we
+=macroscopic_pc[31:0]=
+=i_inst_addr[31:0]=
+=m_data_addr[31:0]=
+=m_data_wdata[31:0]=
+=m_data_byteen[3:0]=
+=m_int_addr[31:0]=
+=m_int_byteen[3:0]=
+=m_inst_addr[31:0]=
+=w_grf_addr[4:0]=
+=w_grf_wdata[31:0]=
+=w_inst_addr[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mips
+
